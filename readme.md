@@ -8,6 +8,10 @@
 npm init -y
 # install koa and packages
 npm i -S koa koa-bodyparser koa-json koa-logger koa-router
+npm i --save-dev @types/koa
+npm i --save-dev @types/koa-router
+npm i --save-dev @types/koa-logger
+npm i --save-dev @types/koa-json
 # create 2 directories
 mkdir src dist
 ```
@@ -47,8 +51,9 @@ app.listen(3000, () => {
 # install typescript
 sudo npm i -g typescript
 # create tsconfig.json
+tsc --init
 ```
 
 ```js
-
+npm i -D @types/node
 ```
